@@ -1,0 +1,114 @@
+[20-Jun-2016 07:51:23 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 07:51:23 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 07:51:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[20-Jun-2016 08:06:43 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 08:06:43 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 08:06:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[20-Jun-2016 08:09:08 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 08:09:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 08:09:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[20-Jun-2016 08:10:46 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 08:10:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 08:10:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[20-Jun-2016 08:16:36 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 08:16:36 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 08:16:36 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[20-Jun-2016 08:19:47 UTC] PHP Warning:  fopen(/home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/wpmudev-updates/update-notifications.php): failed to open stream: No such file or directory in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4568
+[20-Jun-2016 08:19:47 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4571
+[20-Jun-2016 08:19:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rankingb/public_html/johnsaundersautomotive/wp-includes/functions.php on line 4574
+[16-Nov-2016 01:58:49 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[11-Jan-2017 22:24:47 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[16-Jan-2017 23:40:29 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[19-Jan-2017 23:35:51 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[19-Jan-2017 23:38:20 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[19-Jan-2017 23:40:03 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[20-Jan-2017 01:42:47 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[30-Jan-2017 01:39:55 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[15-Feb-2017 00:32:33 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[23-Feb-2017 06:09:03 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[31-May-2017 07:08:21 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[31-May-2017 07:10:43 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/yNO8TWh1to0pP...')
+#2 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Analy in /home/rankingb/public_html/johnsaundersautomotive/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
